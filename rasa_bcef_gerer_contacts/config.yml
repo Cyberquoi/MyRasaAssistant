@@ -1,0 +1,28 @@
+recipe: default.v1
+language: fr
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyser: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+- name: CRFEntityExtractor
+- name: NLUCommandAdapter
+
+- name: SingleStepLLMCommandGenerator
+  minimize_num_calls: true
+  llm:
+    model_group: rasa_command_generation_model
+  flow_retrieval:
+    active: false
+
+
+
+
+policies:
+- name: FlowPolicy
+#  - name: IntentlessPolicy
+assistant_id: 20250412-220936-chill-modern

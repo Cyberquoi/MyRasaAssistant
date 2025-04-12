@@ -1,0 +1,8 @@
+version: "3.1"
+
+nlu:
+  - intent: list_contacts
+    examples: |
+      - liste des contacts
+      - tous les contacts
+      - c'est quoi mes contacts
