@@ -11,3 +11,5 @@ rasa init --template calm
 => creation fichier config.yml
 => creation fichier credentials.yml
 => creation fichier endpoints.yml
+
+# Lancer le train (ajouter .rasa dans gitignore)

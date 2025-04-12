@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 .idea
+.rasa
 
 # Distribution / packaging
 .Python
