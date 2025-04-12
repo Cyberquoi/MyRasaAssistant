@@ -1,19 +1,29 @@
 # MyRasaAssistant
 Agent conversationnel s'appuyant sur RasaPro
 
+# Installation
 
-# Install
-
-
-
-# Créer le projet (Rasa supports Python 3.10 and 3.11)
+## Créer le projet 
 git clone https://github.com/Cyberquoi/MyRasaAssistant.git
 
-## créer l'environnement virtuel
+## Paramétrer le gitignore
+.env
 
+
+## créer l'environnement virtuel et ajouter les librairie (Rasa supports Python 3.10 and 3.11)
+python.exe -m pip install --upgrade pip
 pip install rasa-pro
 
-# Commandes Rasa
+## créer le fichier .env
+RASA_PRO_LICENSE=sxxJhbGciOiJSUzI1NiIsIxxxx
+RASA_PRO_BETA_STUB_CUSTOM_ACTION=true
+
+# Exécution
+
+## Démarrer le projet
+source .env
+
+## Commandes Rasa
 - rasa train
 - rasa inspect
 - rasa actions
