@@ -2,6 +2,7 @@
 Agent conversationnel s'appuyant sur RasaPro
 
 # Installation
+https://rasa.com/docs/pro/tutorial/
 
 ## Créer le projet 
 git clone https://github.com/Cyberquoi/MyRasaAssistant.git
@@ -16,6 +17,7 @@ pip install rasa-pro
 
 ## créer le fichier .env
 RASA_PRO_LICENSE=sxxJhbGciOiJSUzI1NiIsIxxxx
+
 RASA_PRO_BETA_STUB_CUSTOM_ACTION=true
 
 # Exécution
