@@ -8,8 +8,10 @@ https://rasa.com/docs/pro/tutorial/
 git clone https://github.com/Cyberquoi/MyRasaAssistant.git
 
 ## Paramétrer le gitignore
-.env
-
+- .env
+- .idea (pycharm)
+- .rasa
+- models/
 
 ## créer l'environnement virtuel et ajouter les librairie (Rasa supports Python 3.10 and 3.11)
 python.exe -m pip install --upgrade pip
