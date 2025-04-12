@@ -8,6 +8,10 @@ __pycache__/
 
 .idea
 
+# RASA
+.rasa
+models/
+
 # Distribution / packaging
 .Python
 build/
