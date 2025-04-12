@@ -13,3 +13,5 @@ rasa init --template calm
 => creation fichier endpoints.yml
 
 # Lancer le train (ajouter .rasa dans gitignore)
+
+# Désactiver le LLM (endpoints.yml)
