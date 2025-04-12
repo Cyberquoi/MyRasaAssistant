@@ -8,6 +8,6 @@ git clone https://github.com/Cyberquoi/MyRasaAssistant.git
 pip install rasa-pro
 
 # Commandes Rasa
-rasa train
-rasa inspect
-rasa actions
+- rasa train
+- rasa inspect
+- rasa actions
