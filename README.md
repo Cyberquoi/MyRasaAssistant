@@ -4,7 +4,7 @@ Agent conversationnel s'appuyant sur RasaPro
 
 # Install
 
-## Configurer SSH avec  Github
+## Configurer SSH avec  Github (pas obligatoire répo publique)
 ls -al ~/.ssh # Checker si une clé existe sinon en générer une nouvelle
 
 ssh-keygen -t ed25519 -C "mon-email@exemple.com" # Générer une clé ssh
