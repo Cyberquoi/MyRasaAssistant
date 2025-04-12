@@ -3,10 +3,19 @@ Agent conversationnel s'appuyant sur RasaPro
 
 
 # Install
-# Rasa supports Python 3.10 and 3.11
-**générer une clé ssh
-ssh-keygen -t ed25519 -C "ton-email@exemple.com"
 
+## Configurer SSH avec  Github
+ls -al ~/.ssh # Checker si une clé existe sinon en générer une nouvelle
+
+ssh-keygen -t ed25519 -C "mon-email@exemple.com" # Générer une clé ssh
+
+ssh-add ~/.ssh/id_ed25519
+
+cat ~/.ssh/id_ed25519.pub # Copier la clé publique sur Github Settings/keys
+
+
+# Rasa supports Python 3.10 and 3.11
+git@github.com:Cyberquoi/MyRasaAssistant.git
 git clone https://github.com/Cyberquoi/MyRasaAssistant.git
 
 pip install rasa-pro
