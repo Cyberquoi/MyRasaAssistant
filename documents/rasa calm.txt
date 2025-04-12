@@ -1,0 +1,13 @@
+# Installation du template rasa calm
+
+rasa init --template calm
+
+# Détail de l'installation du template
+=> creation repertoire actions (custom action)
+=> creation repertoire data (flows mais pas nlu)
+=> creation repertoire db
+=> creation repertoire domain
+=> creation repertoire e2e_tests
+=> creation fichier config.yml
+=> creation fichier credentials.yml
+=> creation fichier endpoints.yml
