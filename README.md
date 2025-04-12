@@ -13,6 +13,7 @@ git clone https://github.com/Cyberquoi/MyRasaAssistant.git
 
 ## créer l'environnement virtuel et ajouter les librairie (Rasa supports Python 3.10 and 3.11)
 python.exe -m pip install --upgrade pip
+
 pip install rasa-pro
 
 ## créer le fichier .env
